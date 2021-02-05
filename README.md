@@ -1,1 +1,2 @@
 # Autoclicker
+**Only for Linux.**
