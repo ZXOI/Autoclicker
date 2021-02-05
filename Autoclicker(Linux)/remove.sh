@@ -1,0 +1,1 @@
+rm Clickleft Clickright Clickroller Autoclicker
