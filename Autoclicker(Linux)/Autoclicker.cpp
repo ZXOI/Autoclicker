@@ -11,7 +11,6 @@ char kright[1024]="killall -9 Clickright";
 char kroller[1024]="killall -9 Clickroller";
 char ktool[1024]="killall -9 xdotool";
 char clr[1024]="clear";
-char pre[1024]="chmod 777 ./remove.sh";
 char rmv[1024]="./remove.sh &";
 void sleep(int ms)
 {
@@ -80,7 +79,6 @@ int main()
 		if(c=='s'||c=='S')
 		{
 			cout<<"Stopping."<<endl;
-			// for(long long i=1;i<=1000000000;i++);
 			Stopclicking();
 		}
 		if(c=='q'||c=='Q')
@@ -91,7 +89,6 @@ int main()
 	Stopclicking();
 	system(clr);
 	sleep(100);
-	system(pre);
 	system(rmv);
 	return 0;
 }
